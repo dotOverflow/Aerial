@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400');
+
+* {
+    margin: 0;
+}
+
+body {
+    background: #333333;
+}
+
+header {
+    -webkit-app-region: drag;
+    height: 25px;
+    background: #333333;
+    box-shadow: 0px 0px 5px 3px #252525;
+}
+
+header p.title {
+    float: left;
+    padding-left: 3%;
+    color: #ffffff;
+    font-size: 13px;
+    line-height: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+header div.buttons {
+    -webkit-app-region: no-drag;
+    padding-right: 1%;
+    height: 25px;
+    float: right;
+}
+
+header div.buttons button.close {
+    outline: none;
+    color: #ffffff;
+    float: left;
+    margin: 0;
+    border: none;
+    height: 24px;
+    width: 30px;
+    background: transparent;
+}
+
+header div.buttons button.full {
+    outline: none;
+    color: #ffffff;
+    float: left;
+    margin: 0;
+    border: none;
+    height: 24px;
+    width: 30px;
+    background: transparent;
+}
+
+header div.buttons button.reduce {
+    outline: none;
+    color: #ffffff;
+    float: left;
+    margin: 0;
+    border: none;
+    height: 24px;
+    width: 30px;
+    background: transparent;
+}
+
+header div.buttons button:hover {
+    background: #252525;
+}
+
+header img {
+    padding: 2.5px;
+    float: left;
+    height: 20px;
+}
